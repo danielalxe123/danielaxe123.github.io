@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyectos Levantando al Caído</title>
+	<link rel="icon" type="imagen/jpg" href="https://us.123rf.com/450wm/andiasmara/andiasmara1710/andiasmara171000006/88226116-icono-de-ayuda-de-mano-.jpg?ver=6">
+	<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+
+		}
+
+		body{
+			font-family: 'open sans';
+		}
+
+		.contenedor{
+			padding: 60px 0;
+			width: 90%;
+			max-width: 1000px;
+			margin: auto;
+			overflow: hidden;
+
+		}
+
+		.titulo{
+			color: #5920CD;
+			font-size: 50px;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+
+		/* Header */
+
+		header{
+			width: 100%;
+			height: 600px;
+			background-image: url(http://ntn-consultores.com/wp-content/uploads/2017/08/El-task-force-y-la-organizaci%C3%B3n-flexible--918x459.jpg) ;
+			background-repeat: no-repeat;
+	background-position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+		}
+
+
+		nav{
+			text-align: right;
+			padding: 30px 50px 0 0;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+		}
+
+		nav > a{
+			font-family: 'Open Sans', sans-serif;
+			color: #891694 ; 
+			font-weight: 300;
+			text-decoration: none;
+             margin-right: 10px;
+		}
+
+		nav > a:hover{
+			color: #1783DC;
+			text-decoration: underline;
+		}
+
+
+		header .textos-header{
+			display: flex;
+			height: 430px;
+			width: 100%;
+			align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+		}
+.textos-header h1{
+       font-size: 50px;
+       color: #A200FF;
+
+}
+
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #4D9FFE;
+}
+
+		.wave{
+		position: absolute;	
+		bottom: 0;
+		width: 100%;
+		}
+
+		/* About us */
+      
+		.contenedor-sobre-nosotros{
+			display:flex ;
+			justify-content: space-evenly;
+		}
+      .imagen-about-us{
+      	width: 48%;
+      }
+.sobre-nosotros .contenido-textos{
+       width: 48%;
+
+} 
+
+.contenido-textos h3{
+	margin-bottom: 15px;
+
+}
+
+.contenido-textos h3 span{
+         background: #4797F3;
+         color: #fff;
+         border-radius: 50%;
+         display: inline-block;
+         text-align: center;
+         width: 30px;
+         height: 30px;
+         padding: 2px;
+         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+         padding: 2px;
+         margin-right: 5px;
+}
+
+.contenido-textos p{
+	padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+/* footer */
+
+footer{
+	background:#414141 ;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer-p{
+	color: #fff;
+	font-size: 16px;
+
+}
+
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #8703D3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #fff;
+
+}
+
+button{
+width: 40px;
+height: 40px;
+background: #414141;
+border-radius: 10px;
+border:none ;
+cursor: pointer;
+padding: 30px;
+color: #fff;
+font-size: 30px;
+transition: 3s ease all;
+}
+ 
+  /* sesion de comentario */
+
+.form{
+	background-color: #8300BF;
+	width: 90%;
+	max-width: 400px;
+	border-radius: 2em;
+	padding: 3.5em 1.5em;
+	margin: auto;
+}
+
+
+
+.form_cta{
+	font-family: 'Open Sans', sans-serif;
+background: linear-gradient(#e66465, #9198e5);
+	color: #fff;
+	border: none;
+	font-weight: 300;
+	padding: .7em 0;
+	border-radius: .2em;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+
+
+.form_container{
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+
+.form_title{
+	text-align: center;
+	font-size: 1.9rem;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.Equipo-sub{
+	text-align: center;
+	font-size: 30px;
+	color: #398FF0;
+}
+
+.form_input--message{
+	resize: none;
+	padding: 1.8em 1em;
+	margin-bottom: .5em;
+}
+
+.Equipo-mi{
+	text-align: center;
+	font-size: 30px;
+	color: #FFD800;
+	font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.form{
+	width: 90%;
+	max-width: 400px;
+	border-radius: 1em;
+	padding: 3.5em 1.5em;
+	margin: auto;
+	background-color: #fff;
+	}
+
+	.form_container{
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+
+.form_input{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	padding: 1em 1em;
+	outline: none;
+	border: none;
+	border: 1px solid #000000;
+	border-radius: 0.2em;
+
+
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse:collapse ;
+}
+
+th, td{
+	padding: 10px;
+}
+
+table{
+	background: #f1f1c1;
+}
+
+
+
+/* Adactacion movil */
+
+@media screen and ( max-width: 900px){
+	header{
+		background-position: center;
+	}
+
+	.contenedor-sobre-nosotros{
+
+		flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	}
+
+	.table{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	}
+
+	h2{
+
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	}
+
+
+
+
+
+
+	</style>
+
+<script src="https://kit.fontawesome.com/2c36520232.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+
+<header>
+     <nav>
+     	<a href="Levantando al Caído">Inicio</a>
+     	<a href="Quienes somos">¿Quienes somos?</a>
+     	<a href="Misión Levantando al Caído.html">Misión</a>
+     	<a href="Visión Levantando al Caído.html">Visión</a>
+     	<a href="Objetivo Levantando al Caído.html">Objetivo</a>
+     	<a href="Proyectos Levantando al Caído.html">Proyectos</a>
+     	<a href="Equipo Levantando al Caído.html">Equipo</a>
+     	<a href="Transparencia Levantando al Caído.html">Transparencia</a>
+     	<a href="Datos economicos Levantando al Caído.html">Datos economicos</a>
+     	<a href="Empresa Levantando al Caído.html">Empresa</a>
+     	<a href="Contactos Levantando al Caído.html">Contactos</a>  
+     	<a href="Blog Levantando al Caído.html">Blog</a>   	
+
+     </nav>
+   	<section class="textos-header">
+		<h1></h1>
+	</section>
+	<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-40.34,-68.56 C200.05,-168.23 349.20,-49.98 539.78,-196.86 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+</header>
+<main>
+	<section class="contenedor sobre-nosotros">
+		<h2 class="titulo">Proyectos</h2>
+		<div class="contenedor-sobre-nosotros">
+		   <div class="contenido-textos">
+		   	<center><h1>Formación</h1></center>
+		   	<br>
+		   	<center><h3> ¿Cuál es el objetivo de crear esta pagina?</h3></center>
+
+		   	<p>Esta pagina tiene como proposito unir a las personas que necesitan el apoyo y el consuelo de nosotros. Esta pagina es necesario dar la importancia debida a una realidad: nuestra alma ha sido lastimada o afectada a lo largo de la vida con una serie de experiencias dolorosas o traumáticas. Ignorar o no tener en cuenta esta verdad hace que muchas enfermedades, miedos y complejos afecten profundamente la vida de todas las personas. Esta es una herramienta o ayuda en éste proceso de sanidad o restauración... . 
+		   		<br>
+		   		<br>
+		   		La intención de esta pagina es promover y proveer mensajes de vida y de inspiración fundamentados en la palabra de Dios, la Biblia
+declarar a Jesucristo como Señor de todas las cosas, ese es el plan y propósito de esta pagina.
+		   	</p>
+		   	   <br>
+		   	   <br>
+		   	   
+                      
+		   	<center><h2>Colaboración socios y donantes.</h2></center>
+		   	<br>
+		   	   <table style="width: 100%;">
+		   	   	<tr>
+		   	   		<th>
+		   	   			Socios
+		   	   		</th>
+		   	   		<th>
+		   	   			Donantes
+		   	   		</th>
+		   	   </tr>
+		   	   	<tr>
+		   	   		<td>-</td>
+		   	   		<td>-</td>
+		   	   		
+		   	   		
+		   	   	</tr>
+		   	   	<tr>
+		   	   		<td>-</td>
+		   	   		<td>-</td>
+		   	   	</tr>
+		   	   	<tr>
+		   	   		<td>-</td>
+		   	   		<td>-</td>
+		   	   	</tr>
+		   	   </table>
+		   	   <br>
+		   	   <br>
+		   	   <br>
+                        <br>
+		   	   <br>
+		   	   <br>
+
+		   	<center><h1>Ayuda.</h1></center>
+		   	<br>
+		   		<h3>Política de accesibilidad</h3>
+		   		<br>
+		   		
+		   		<p>
+Nuestro compromiso con la accesibilidad levantar al Caído, estamos comprometidos con nuestros suscriptores. Ya sea que esté usando tecnologías de asistencia como un lector de pantalla, una lupa, software de reconocimiento de voz o tecnología de interruptores, o si encuentra que tiene otras necesidades de accesibilidad, creemos que todos nuestros suscriptores deben poder acceder a nuestro servicio y usarlo mediante nuestro sitio web y sitio web móvil. Porque abrazamos los valores de la diversidad y la inclusión en todo lo que hacemos, nuestra misión es hacer que Scribd sea la elección para la lectura por placer, para todos los individuos.
+<br>
+<br>
+¿Cómo logramos nuestros objetivos?
+<br>
+<br>
+Establecemos estándares altos para la accesibilidad web y nos esforzamos para asegurar que cumplimos con todas las leyes y pautas. Nuestro equipo de profesionales se dedica a hacer que las experiencias de nuestro sitio web y sitio web móvil sean lo mejor posible, y colaboramos con grupos de apoyos, socios de la industria y proveedores para identificar áreas que necesiten mejorar.
+<br>
+<br>
+Las Pautas de Accesibilidad para el Contenido Web (WCAG, por sus siglas en inglés) 2.0 Nivel AA son reconocidas y aceptadas como la medida estándar internacional de éxito. Estamos trabajando para cumplir con esos estándares y probaremos nuestro sitio con regularidad para asegurar el cumplimiento. Estamos incorporando accesibilidad y diseño inclusivo como parte integral de todo nuestro trabajo digital: durante el planeamiento del proyecto, la implementación y las mejoras del sitio sobre la base de los comentarios de los suscriptores. Estamos trabajando con grupos de apoyo, especialistas en accesibilidad y uso para asegurarnos de que nuestros sitios funcionen en forma apropiada. Siempre estamos aprendiendo. Nuestros equipos aprenden de todo lo que hacemos, y siempre buscamos mejoras en el desempeño, la velocidad y la accesibilidad.
+<br>
+<br>
+Pasos que estamos tomando para mejorar la accesibilidad
+Aquí presentamos algunos de los elementos que estamos abordando para asegurarnos de que nuestro sitio web y sitio web móvil sean fáciles de usar en la mayor medida posible para todos los suscriptores.
+<br>
+<br>
+<h4>Estructura del sitio:</h4> Estamos trabajando para usar listas de encabezados, párrafos y otras características de formato apropiados en scribd.com para que los suscriptores puedan entender el contenido y navegar con más facilidad con tecnología de asistencia.
+<br>
+<br>
+<h4>Equivalentes de texto:</h4> Las personas que no pueden ver imágenes u oír audio pueden necesitar una forma de equivalente de texto para interactuar con nuestros sitios. Estamos trabajando para asegurar que nuestras imágenes y multimedia sean completamente accesibles por medio de texto alternativo, subtítulos y transcripciones.
+<br>
+<br>
+<h4>Acceso completo al teclado:</h4> Estamos trabajando para asegurar que se pueda acceder a todo lo que desarrollamos mediante el teclado.
+<br>
+<br>
+<h4>Coherencia del sitio:</h4> Estamos trabajando para lograr coherencia en la forma en que desarrollamos nuestro sitio web y sitio web móvil. Una vez que comprenda cómo funciona nuestra navegación y nuestro servicio, nuestro objetivo es asegurarnos de que pueda interactuar con nuestro sitio web y sitio web móvil con funcionalidad regular.
+<br>
+<br>
+<h3>¿Necesita ayuda o comentarios?</h3>
+
+<br>
+Envíenos sus comentarios. 	
+</p>
+
+		   	<form class="form" action="https://formspree.io/f/xnqwrnzy" method="POST">
+	<div class="form_container">
+
+		   		<div class="form_container">
+		   	<textarea class="form_input form_input--message" placeholder="Escribe tu comentario:"  name="message"></textarea>
+		<input type="submit" value="Enviar comentario" class="form_cta">
+	</div>
+</form>
+		   </div>
+		</div>
+	</div>
+	</section>
+</main>
+<footer>
+</div>
+
+	<div class="contenedor-footer">
+		<div class="content-foo">
+			<h4>Tell.</h4>
+			<p>809-820-8378</p>
+		</div>
+		<div class="content-foo">
+			<h4>Contacto.</h4>
+			<p>evermeth123@gmail.com</p>
+          
+		</div>
+	</div>
+		<br>
+	<center>
+	<a href="https://m.facebook.com/Levantando-al-caido-102472301978472/?ref=py_c"><button><i class="fa-brands fa-facebook-square"></i></button></a>
+
+		<a href="https://www.instagram.com/levantando_los_caidos2021/"><button><i class="fa-brands fa-instagram"></i></button></a>
+
+		<a href="https://www.linkedin.com/in/pastor-lebron-sr-411698126"><button><i class="fa-brands fa-linkedin"></i></button></a>
+
+		<a href="https://twitter.com/iglesia_lac?lang=es"><button><i class="fa-brands fa-twitter"></i></button></a>
+
+		<a href="https://wa.link/2a0tgl"><button><i class="fa-brands fa-whatsapp"></i></button></a>
+
+		<a href="https://www.youtube.com/watch?v=jYdVyev8cig"><button><i class="fa-brands fa-youtube"></i></button></a>
+		<br>
+		<br>
+		<br>
+<p class="footer-p">Derechos del autor © | Diseñado y desarrollado por Daniel Alexander Rodriguez Beras | Reservados todos los derechos</p>
+	</center>
+</footer>
+</body>
+</html>

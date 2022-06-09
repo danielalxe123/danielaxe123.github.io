@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Equipo Levantando al Caído</title>
+	<link rel="icon" type="imagen/jpg" href="https://us.123rf.com/450wm/andiasmara/andiasmara1710/andiasmara171000006/88226116-icono-de-ayuda-de-mano-.jpg?ver=6">
+	<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+
+		}
+
+		body{
+			
+		}
+
+		.contenedor{
+			padding: 60px 0;
+			width: 90%;
+			max-width: 1000px;
+			margin: auto;
+			overflow: hidden;
+
+		}
+
+		.titulo{
+			color: #5920CD;
+			font-size: 50px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		/* Header */
+
+		header{
+			width: 100%;
+			height: 600px;
+			background-image: url(https://www.inestemple.com/wp-content/uploads/2016/06/redes-contactos.jpg) ;
+			background-repeat: no-repeat;
+	background-position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+		}
+
+
+		nav{
+			text-align: right;
+			padding: 30px 50px 0 0;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+		}
+
+		nav > a{
+			font-family: 'Open Sans', sans-serif;
+			color: #891694 ;
+			font-weight: 300;
+			text-decoration: none;
+             margin-right: 10px;
+		}
+
+		nav > a:hover{
+			color: #1783DC;
+			text-decoration: underline;
+		}
+
+
+		header .textos-header{
+			display: flex;
+			height: 430px;
+			width: 100%;
+			align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+		}
+.textos-header h1{
+       font-size: 50px;
+       color: #134d33;
+
+}
+
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #4D9FFE;
+}
+
+		.wave{
+		position: absolute;	
+		bottom: 0;
+		width: 100%;
+		}
+
+		/* About us */
+      
+		.contenedor-sobre-nosotros{
+			display:flex ;
+			justify-content: space-evenly;
+		}
+      .imagen-about-us{
+      	width: 48%;
+      }
+.sobre-nosotros .contenido-textos{
+       width: 48%;
+
+} 
+
+.contenido-textos h3{
+	margin-bottom: 15px;
+
+}
+
+.contenido-textos h3 span{
+         background: #4797F3;
+         color: #fff;
+         border-radius: 50%;
+         display: inline-block;
+         text-align: center;
+         width: 30px;
+         height: 30px;
+         padding: 2px;
+         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+         padding: 2px;
+         margin-right: 5px;
+}
+
+.contenido-textos p{
+	padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+/* footer */
+
+footer{
+	background:#414141 ;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.footer-p{
+	color: #fff;
+	font-size: 16px;
+
+}
+
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #8703D3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #fff;
+
+
+}
+
+.parrafo{
+	text-align: center;
+	width: 90%;
+	font-size: 20px;
+	height: 100px;
+}
+
+
+.parrafo img{
+	text-align: center;
+}
+
+button{
+width: 40px;
+height: 40px;
+background: #414141;
+border-radius: 10px;
+border:none ;
+cursor: pointer;
+padding: 30px;
+color: #fff;
+font-size: 30px;
+transition: 3s ease all;
+}
+
+/* Formulario */
+
+.form{
+	background-color: #8300BF;
+	width: 90%;
+	max-width: 400px;
+	border-radius: 1em;
+	padding: 3.5em 1.5em;
+	margin: auto;
+
+}
+
+.form_input{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	padding: 1em 1em;
+	outline: none;
+	border: none;
+	border: 1px solid #DA9306;
+	border-radius: 0.2em;
+}
+
+.form_cta{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #0694D2;
+	color: #fff;
+	border: none;
+	font-weight: 300;
+	padding: .7em 0;
+	border-radius: .2em;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.form_container{
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+
+.form_title{
+	text-align: center;
+	font-size: 1.9rem;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.Equipo-sub{
+	text-align: center;
+	font-size: 30px;
+	color: #398FF0;
+}
+
+.form_input--message{
+	resize: none;
+	padding: 1.8em 1em;
+	margin-bottom: .5em;
+}
+
+/* Mapa */
+
+.Equipo-mi{
+	color: #7281FE;
+	padding: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.iframe{
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px;
+	background-color:#C0CEE3;
+	grid-auto-columns: 100%;
+
+	}
+
+
+/* Noticias */
+
+
+.ti{
+     
+    text-align: center;
+	font-size: ;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+
+
+}
+
+.ti a{
+	text-decoration: none;
+}
+
+.parrafo1{
+	font-family: 'Open Sans', sans-serif;
+	  border-bottom: 1px solid #000;
+       padding-bottom: 50px;
+
+}
+
+.im{
+	width: 400px;
+	height: 300px;
+	
+
+}
+
+
+.tu{
+    text-align: center;
+	font-size: ;
+	color: #7100A9;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+}
+
+.ge{
+	width: 400px;
+	height: 300px;
+}
+
+.tu a{
+	text-decoration: none;
+	color: #7100A9;
+
+}
+
+	
+.parrafo2{
+       font-family: 'Open Sans', sans-serif;
+       border-bottom: 1px solid #000;
+       padding-bottom: 50px;
+
+}
+
+.imagen3{
+   width: 400px;
+	height: 300px;
+
+}
+
+.imagen4{
+   width: 400px;
+	height: 300px;
+
+}
+	
+
+	</style>
+
+
+	<script src="https://kit.fontawesome.com/2c36520232.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Merriweather+Sans:ital@1&family=Open+Sans:ital,wght@0,500;1,500&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+     <nav>
+     	<a href="Levantando al Caído">Inicio</a>
+     	<a href="Quienes somos">¿Quienes somos?</a>
+     	<a href="Misión Levantando al Caído.html">Misión</a>
+     	<a href="Visión Levantando al Caído.html">Visión</a>
+     	<a href="Objetivo Levantando al Caído.html">Objetivo</a>
+     	<a href="Proyectos Levantando al Caído.html">Proyectos</a>
+     	<a href="Equipo Levantando al Caído.html">Equipo</a>
+     	<a href="Transparencia Levantando al Caído.html">Transparencia</a>
+     	<a href="Datos economicos Levantando al Caído.html">Datos economicos</a>
+     	<a href="Empresa Levantando al Caído.html">Empresa</a>
+     	<a href="Contactos Levantando al Caído.html">Contactos</a> 
+     	<a href="Blog Levantando al Caído.html">Blog</a>
+     </nav>
+   	<section class="textos-header">
+		<h1> Contactos</h1>
+	</section>
+	<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-40.34,-68.56 C200.05,-168.23 349.20,-49.98 539.78,-196.86 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+</header>
+
+<section class="contenedor sobre-nosotros ">
+		<h2 class="titulo">Noticias</h2>
+
+		<p class="parrafo">
+
+			<h3 class="ti"><a href="https://presidencia.gob.do/noticias/presidente-luis-abinader-y-primera-dama-raquel-arbaje-visitan-la-familia-jorge-villegas">
+
+			Presidente Luis Abinader y primera dama Raquel Arbaje visitan a la familia Jorge Villegas para solidarizarse por la muerte del ministro de Medio Ambiente y amigo, Orlando Jorge Mera. </a></h3>
+               <a href="https://presidencia.gob.do/noticias/presidente-luis-abinader-y-primera-dama-raquel-arbaje-visitan-la-familia-jorge-villegas"><img src="https://presidencia.gob.do/sites/default/files/styles/medium/public/news/2022-06/photo_2.jpg?itok=Bcbu2pgk" class="im">
+               </a>
+               <p class="parrafo1">Santo Domingo.- El presidente Luis Abinader y la primera dama Raquel Arbaje visitaron la noche de este lunes a la familia Jorge Villegas para solidarizarse por la muerte del ministro de Medio Ambiente y amigo, Orlando Jorge Mera.</p>
+
+<br>
+<br>
+               <h3 class="tu"><a href="https://presidencia.gob.do/noticias/presidente-abinader-orlando-jorge-mera-era-un-buscador-infinito-del-consenso-y-un-hombre">Presidente Abinader: “Orlando Jorge Mera era un buscador infinito del consenso y un hombre de paz.”</a></h3> <a href="https://presidencia.gob.do/noticias/presidente-abinader-orlando-jorge-mera-era-un-buscador-infinito-del-consenso-y-un-hombre"><img src="https://presidencia.gob.do/sites/default/files/styles/medium/public/news/2022-06/1_4.jpg?itok=xxBS37UZ" class="ge"></a><p class="parrafo2">
+               	Santo Domingo.- El presidente Luis Abinader encabezó este martes una misa de cuerpo presente en memoria del ministro de Medio Ambiente, Orlando Jorge Mera, a quien definió como un buscador infinito del consenso y hombre de paz.
+               	
+               </p>
+               <br>
+<br>
+
+                 <h3 class="tu"><a href="https://presidencia.gob.do/noticias/gobierno-y-presidente-abinader-expresan-profundas-condolencias-por-muerte-del-ministro">Gobierno y presidente Abinader expresan profundas condolencias por muerte del ministro Orlando Jorge Mera. </a></h3> <a href="https://presidencia.gob.do/noticias/gobierno-y-presidente-abinader-expresan-profundas-condolencias-por-muerte-del-ministro"> <img src="https://presidencia.gob.do/sites/default/files/styles/medium/public/news/2022-06/0zkQB98S3uTfqPxQwtAYlhbL_20220606_1266.JPG?itok=TbYqxIZT" class="imagen3"></a><p class="parrafo2">
+               	Santo Domingo.- “En nombre del Gobierno y del presidente de la República, Luis Abinader, expresamos nuestras más profundas condolencias a la familia Mera Villegas por el fallecimiento del Ministro de Medioambiente, Orlando Jorge Mera”, comunicó este lunes Homero Figueroa, vocero del presidente Abinader y director de Estrategia y Comunicación Gubernamental.
+               	</p>
+               	<br>
+<br>
+               </p>
+
+                 <h3 class="tu"><a href="https://presidencia.gob.do/noticias/presidente-abinader-se-prepara-para-participar-en-cumbre-de-las-americas-que-inicia-el">Presidente Abinader se prepara para participar en Cumbre de las Américas que inicia el miércoles.</a></h3> <a href="https://presidencia.gob.do/noticias/presidente-abinader-se-prepara-para-participar-en-cumbre-de-las-americas-que-inicia-el" class="ge"></a><a href="https://presidencia.gob.do/noticias/presidente-abinader-se-prepara-para-participar-en-cumbre-de-las-americas-que-inicia-el">
+                 	<img src="https://presidencia.gob.do/sites/default/files/styles/medium/public/news/2022-06/11847_1621598784_large.jpg?itok=unBxxHES" class="imagen4"></a><p class="parrafo2">
+               	Santo Domingo.- El presidente Luis Abinader se prepara para participar por primera vez en la Cumbre de las Américas, en su Novena Edición, y que tendrá lug.
+               	<a href="https://listindiario.com/">ver mas</a>
+               </p>
+        </p>
+
+
+
+</section>
+		<h4 class="Equipo-mi">¿Quieres saber nuestra ubicación?</h4>
+
+		<div class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d236.58399984659187!2d-68.89038234830528!3d18.422683913218084!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8ab5d68a9a8b7%3A0x59df23d254dd085b!2sFundaci%C3%B3n%20MIR!5e0!3m2!1ses!2sdo!4v1654615877615!5m2!1ses!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+</section>
+<img src="WhatsApp Image 2022-06-08 at 7.46.38 PM.jpg">
+<footer>
+	<div class="contenedor-footer">
+		<div class="content-foo">
+			<h4>Tell.</h4>
+			<p>809-820-8378</p>
+		</div>
+		<div class="content-foo">
+			<h4>Contacto.</h4>
+			<p>evermeth123@gmail.com</p>
+          
+		</div>
+	</div>
+		<br>
+	<center>
+	<button>
+		<a href="https://m.facebook.com/Levantando-al-caido-102472301978472/?ref=py_c"><button><i class="fa-brands fa-facebook-square"></i></button></a>
+
+		<a href="https://www.instagram.com/levantando_los_caidos2021/"><button><i class="fa-brands fa-instagram"></i></button></a>
+
+		<a href="https://www.linkedin.com/in/pastor-lebron-sr-411698126"><button><i class="fa-brands fa-linkedin"></i></button></a>
+
+		<a href="https://twitter.com/iglesia_lac?lang=es"><button><i class="fa-brands fa-twitter"></i></button></a>
+
+		<a href="https://wa.link/2a0tgl"><button><i class="fa-brands fa-whatsapp"></i></button></a>
+
+		<a href="https://www.youtube.com/watch?v=jYdVyev8cig"><button><i class="fa-brands fa-youtube"></i></button></a>
+		<br>
+		<br>
+		<br>
+<p class="footer-p">Derechos del autor © | Diseñado y desarrollado por Daniel Alexander Rodriguez Beras | Reservados todos los derechos</p>
+	</center>
+
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Equipo Levantando al Caído</title>
+	<link rel="icon" type="imagen/jpg" href="https://us.123rf.com/450wm/andiasmara/andiasmara1710/andiasmara171000006/88226116-icono-de-ayuda-de-mano-.jpg?ver=6">
+	<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+
+		}
+
+		body{
+			
+		}
+
+		.contenedor{
+			padding: 60px 0;
+			width: 90%;
+			max-width: 1000px;
+			margin: auto;
+			overflow: hidden;
+
+		}
+
+		.titulo{
+			color: #5920CD;
+			font-size: 50px;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+
+		/* Header */
+
+		header{
+			width: 100%;
+			height: 600px;
+			background-image: url(https://cdn.bizneo.com/blog/wp-content/uploads/2020/07/Formacion-de-equipos-de-trabajo-810x455.webp) ;
+			background-repeat: no-repeat;
+	background-position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+		}
+
+
+		nav{
+			text-align: right;
+			padding: 30px 50px 0 0;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+		}
+
+		nav > a{
+			font-family: 'Open Sans', sans-serif;
+			color:#891694;
+			font-weight: 300;
+			text-decoration: none;
+             margin-right: 10px;
+		}
+
+		nav > a:hover{
+			color: #1783DC;
+			text-decoration: underline;
+		}
+
+
+		header .textos-header{
+			display: flex;
+			height: 430px;
+			width: 100%;
+			align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+		}
+.textos-header h1{
+       font-size: 50px;
+       color: #A200FF;
+
+}
+
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #4D9FFE;
+}
+
+		.wave{
+		position: absolute;	
+		bottom: 0;
+		width: 100%;
+		}
+
+		/* About us */
+      
+		.contenedor-sobre-nosotros{
+			display:flex ;
+			justify-content: space-evenly;
+		}
+      .imagen-about-us{
+      	width: 48%;
+      }
+.sobre-nosotros .contenido-textos{
+       width: 48%;
+
+} 
+
+.contenido-textos h3{
+	margin-bottom: 15px;
+
+}
+
+.contenido-textos h3 span{
+         background: #4797F3;
+         color: #fff;
+         border-radius: 50%;
+         display: inline-block;
+         text-align: center;
+         width: 30px;
+         height: 30px;
+         padding: 2px;
+         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+         padding: 2px;
+         margin-right: 5px;
+}
+
+.contenido-textos p{
+	padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+/* footer */
+
+footer{
+	background:#414141 ;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #8703D3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: #fff;
+
+
+}
+
+.footer-p{
+	color: #fff;
+	font-size: 16px;
+
+}
+
+
+.parrafo{
+	text-align: center;
+	width: 90%;
+	font-size: 20px;
+	height: 100px;
+
+
+}
+
+button{
+width: 40px;
+height: 40px;
+background: #414141;
+border-radius: 10px;
+border:none ;
+cursor: pointer;
+padding: 30px;
+color: #fff;
+font-size: 30px;
+transition: 3s ease all;
+}
+
+/* Formulario */
+
+.form{
+	background-color: #8300BF;
+	width: 90%;
+	max-width: 400px;
+	border-radius: 1em;
+	padding: 3.5em 1.5em;
+	margin: auto;
+
+}
+
+.form_input{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	padding: 1em 1em;
+	outline: none;
+	border: none;
+	border: 1px solid #DA9306;
+	border-radius: 0.2em;
+}
+
+.form_cta{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #0694D2;
+	color: #fff;
+	border: none;
+	font-weight: 300;
+	padding: .7em 0;
+	border-radius: .2em;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.form_container{
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+
+.form_title{
+	text-align: center;
+	font-size: 1.9rem;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.Equipo-sub{
+	text-align: center;
+	font-size: 30px;
+	color: #398FF0;
+	}
+
+.form_input--message{
+	resize: none;
+	padding: 1.8em 1em;
+	margin-bottom: .5em;
+}
+
+.Equipo-mi{
+	text-align: center;
+	font-size: 30px;
+	color: #FFD800;
+	font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+/* Adactar a los  dipositivos movil*/
+
+
+@media (max-width:450px){
+	.form{
+		padding: 3.5em 1.5em;
+	}
+}
+
+@media (max-width:450px){
+	.contenedor sobre-nosotros{
+		position: relative;
+	}
+}
+
+
+@media (max-width:450px){
+	.titulo{
+		position: relative;
+
+	}
+
+	.Equipo-sub{
+		padding: 90px;
+	}
+
+	.wave{
+		position: relative;
+	}
+
+
+	.parrafo{
+		flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+}
+
+.img-form{
+	width: 20%;
+	padding: 20px;
+	height: 200px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+
+
+}
+
+.Equipo-sub{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: -30px;
+}
+
+
+
+
+
+
+
+
+
+	</style>
+
+
+	<script src="https://kit.fontawesome.com/2c36520232.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Merriweather+Sans:ital@1&family=Open+Sans:ital,wght@0,500;1,500&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+</head><body>
+
+<header>
+     <nav>
+     	<a href="Levantando al Caído">Inicio</a>
+     	<a href="Quienes somos">¿Quienes somos?</a>
+     	<a href="Misión Levantando al Caído.html">Misión</a>
+     	<a href="Visión Levantando al Caído.html">Visión</a>
+     	<a href="Objetivo Levantando al Caído.html">Objetivo</a>
+     	<a href="Proyectos Levantando al Caído.html">Proyectos</a>
+     	<a href="Equipo Levantando al Caído.html">Equipo</a>
+     	<a href="Transparencia Levantando al Caído.html">Transparencia</a>
+     	<a href="Datos economicos Levantando al Caído.html">Datos economicos</a>
+     	<a href="Empresa Levantando al Caído.html">Empresa</a>
+     	<a href="Contactos Levantando al Caído.html">Contactos</a> 
+     	<a href="Blog Levantando al Caído.html">Blog</a>
+     </nav>
+   	<section class="textos-header">
+		<h1></h1>
+	</section>
+	<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-40.34,-68.56 C200.05,-168.23 349.20,-49.98 539.78,-196.86 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+</header>
+<section class="contenedor sobre-nosotros ">
+		<h2 class="titulo">Equipo</h2>
+		<p class="parrafo">
+			Somos un equipo que se encarga de el cuidado y el apoyo hacia las otras personas mas necesitadas o a las personas caidas. 
+			<br>
+			<br>
+			Nosotros nos encargamos de dar una palabra de aliento y esperanza basada en la palabra de Dios a todo aquel que lo necesite. 
+			<br>
+		<br> 
+                   Si  quieres cambiar a las personas tristes, caidas, deprimidas, etc.Ven y unete a nosotros.  
+		</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3 class="Equipo-sub">¿Quieres ser parte de nuestro equipo? </h3>
+		<br>
+
+
+		<h4 class="Equipo-mi">Inscribete aqui.</h4>
+	</section>
+	<form class="form" action="https://formspree.io/f/xnqwrnzy" method="POST">
+	<div class="form_container">
+		<h2 class="form_title">Contactame </h2>
+
+		<input type="text" class="form_input" placeholder="Nombre:" name="name" required>
+
+		<input type="text" class="form_input" placeholder="Email:"  name="email" required>
+
+		<textarea class="form_input form_input--message" placeholder="Mensaje:"  name="message" required></textarea>
+		<input type="submit" value="Enviar" class="form_cta">
+	</div>
+</form>
+
+<center><img src="https://imagenescristianas.bibliaenlinea.org/wp-content/uploads/2014/10/Lindas-Imagenes-Cristianas1.jpg" class="img-form">
+<img src="data:image/jpeg;base64,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" class="img-form">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfWmeBSlQ7hiFrpf3XhmJD6tijns9lMGbuQ&usqp=CAU" class="img-form"></center>
+<br>
+<footer>
+	<div class="contenedor-footer">
+		<div class="content-foo">
+			<h4>Tell.</h4>
+			<p>809-820-8378</p>
+		</div>
+		<div class="content-foo">
+			<h4>Contacto.</h4>
+			<p>evermeth123@gmail.com</p>
+          
+		</div>
+	</div>
+		<br>
+	<center>
+
+	<a href="https://m.facebook.com/Levantando-al-caido-102472301978472/?ref=py_c"><button><i class="fa-brands fa-facebook-square"></i></button></a>
+
+		<a href="https://www.instagram.com/levantando_los_caidos2021/"><button><i class="fa-brands fa-instagram"></i></button></a>
+
+		<a href="https://www.linkedin.com/in/pastor-lebron-sr-411698126"><button><i class="fa-brands fa-linkedin"></i></button></a>
+
+		<a href="https://twitter.com/iglesia_lac?lang=es"><button><i class="fa-brands fa-twitter"></i></button></a>
+
+		<a href="https://wa.link/2a0tgl"><button><i class="fa-brands fa-whatsapp"></i></button></a>
+
+		<a href="https://www.youtube.com/watch?v=jYdVyev8cig"><button><i class="fa-brands fa-youtube"></i></button></a>
+		<br>
+		<br>
+		<br>
+<p class="footer-p">Derechos del autor © | Diseñado y desarrollado por Daniel Alexander Rodriguez Beras | Reservados todos los derechos</p>
+	</center>
+</footer>
+</body>
+</html>
